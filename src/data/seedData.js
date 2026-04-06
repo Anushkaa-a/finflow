@@ -1,0 +1,32 @@
+export const SEED_TRANSACTIONS = [
+  { id: 1,  date: "2025-03-01", description: "Salary",           category: "Income",        amount:  85000, type: "income"  },
+  { id: 2,  date: "2025-03-03", description: "Rent",             category: "Housing",       amount: -22000, type: "expense" },
+  { id: 3,  date: "2025-03-05", description: "Groceries",        category: "Food",          amount:  -3200, type: "expense" },
+  { id: 4,  date: "2025-03-07", description: "Netflix",          category: "Entertainment", amount:   -649, type: "expense" },
+  { id: 5,  date: "2025-03-10", description: "Freelance Work",   category: "Income",        amount:  15000, type: "income"  },
+  { id: 6,  date: "2025-03-12", description: "Electricity Bill", category: "Utilities",     amount:  -1800, type: "expense" },
+  { id: 7,  date: "2025-03-14", description: "Restaurant",       category: "Food",          amount:  -1200, type: "expense" },
+  { id: 8,  date: "2025-03-16", description: "Gym Membership",   category: "Health",        amount:   -800, type: "expense" },
+  { id: 9,  date: "2025-03-18", description: "Uber Rides",       category: "Transport",     amount:  -1100, type: "expense" },
+  { id: 10, date: "2025-03-20", description: "Amazon Shopping",  category: "Shopping",      amount:  -4500, type: "expense" },
+  { id: 11, date: "2025-03-22", description: "Medical Checkup",  category: "Health",        amount:  -1500, type: "expense" },
+  { id: 12, date: "2025-03-25", description: "Dividend",         category: "Income",        amount:   3200, type: "income"  },
+  { id: 13, date: "2025-03-28", description: "Phone Bill",       category: "Utilities",     amount:   -599, type: "expense" },
+  { id: 14, date: "2025-04-01", description: "Salary",           category: "Income",        amount:  85000, type: "income"  },
+  { id: 15, date: "2025-04-02", description: "Rent",             category: "Housing",       amount: -22000, type: "expense" },
+  { id: 16, date: "2025-04-04", description: "Groceries",        category: "Food",          amount:  -2800, type: "expense" },
+  { id: 17, date: "2025-04-06", description: "Zomato Orders",    category: "Food",          amount:  -1600, type: "expense" },
+  { id: 18, date: "2025-04-08", description: "Metro Card",       category: "Transport",     amount:   -500, type: "expense" },
+  { id: 19, date: "2025-04-10", description: "Freelance Work",   category: "Income",        amount:  20000, type: "income"  },
+  { id: 20, date: "2025-04-12", description: "Clothing",         category: "Shopping",      amount:  -5200, type: "expense" },
+];
+
+export const BALANCE_TREND = [
+  { month: "Oct", balance: 42000 },
+  { month: "Nov", balance: 55000 },
+  { month: "Dec", balance: 48000 },
+  { month: "Jan", balance: 61000 },
+  { month: "Feb", balance: 74000 },
+  { month: "Mar", balance: 89000 },
+  { month: "Apr", balance: 112000 },
+];
